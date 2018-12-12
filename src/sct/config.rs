@@ -140,59 +140,59 @@ impl CLKMODER {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum CKSELR {
     #[doc = "Rising edges on input 0."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_0,
     #[doc = "Falling edges on input 0."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_0,
     #[doc = "Rising edges on input 1."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_1,
     #[doc = "Falling edges on input 1."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_1,
     #[doc = "Rising edges on input 2."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_2,
     #[doc = "Falling edges on input 2."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_2,
     #[doc = "Rising edges on input 3."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_3,
     #[doc = "Falling edges on input 3."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_3,
     #[doc = "Rising edges on input 4."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_4,
     #[doc = "Falling edges on input 4."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_4,
     #[doc = "Rising edges on input 5."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_5,
     #[doc = "Falling edges on input 5."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_5,
     #[doc = "Rising edges on input 6."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_6,
     #[doc = "Falling edges on input 6."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_6,
     #[doc = "Rising edges on input 7."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_7,
     #[doc = "Falling edges on input 7."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_7,
 }
 impl CKSELR {
     #[doc = r" Value of the field as raw bits"]
     #[inline]
     pub fn bits(&self) -> u8 {
         match *self {
-            CKSELR::RISING_EDGES_ON_INPU => 0,
-            CKSELR::FALLING_EDGES_ON_INP => 1,
-            CKSELR::RISING_EDGES_ON_INPU => 2,
-            CKSELR::FALLING_EDGES_ON_INP => 3,
-            CKSELR::RISING_EDGES_ON_INPU => 4,
-            CKSELR::FALLING_EDGES_ON_INP => 5,
-            CKSELR::RISING_EDGES_ON_INPU => 6,
-            CKSELR::FALLING_EDGES_ON_INP => 7,
-            CKSELR::RISING_EDGES_ON_INPU => 8,
-            CKSELR::FALLING_EDGES_ON_INP => 9,
-            CKSELR::RISING_EDGES_ON_INPU => 10,
-            CKSELR::FALLING_EDGES_ON_INP => 11,
-            CKSELR::RISING_EDGES_ON_INPU => 12,
-            CKSELR::FALLING_EDGES_ON_INP => 13,
-            CKSELR::RISING_EDGES_ON_INPU => 14,
-            CKSELR::FALLING_EDGES_ON_INP => 15,
+            CKSELR::RISING_EDGES_ON_INPUT_0 => 0,
+            CKSELR::FALLING_EDGES_ON_INPUT_0 => 1,
+            CKSELR::RISING_EDGES_ON_INPUT_1 => 2,
+            CKSELR::FALLING_EDGES_ON_INPUT_1 => 3,
+            CKSELR::RISING_EDGES_ON_INPUT_2 => 4,
+            CKSELR::FALLING_EDGES_ON_INPUT_2 => 5,
+            CKSELR::RISING_EDGES_ON_INPUT_3 => 6,
+            CKSELR::FALLING_EDGES_ON_INPUT_3 => 7,
+            CKSELR::RISING_EDGES_ON_INPUT_4 => 8,
+            CKSELR::FALLING_EDGES_ON_INPUT_4 => 9,
+            CKSELR::RISING_EDGES_ON_INPUT_5 => 10,
+            CKSELR::FALLING_EDGES_ON_INPUT_5 => 11,
+            CKSELR::RISING_EDGES_ON_INPUT_6 => 12,
+            CKSELR::FALLING_EDGES_ON_INPUT_6 => 13,
+            CKSELR::RISING_EDGES_ON_INPUT_7 => 14,
+            CKSELR::FALLING_EDGES_ON_INPUT_7 => 15,
         }
     }
     #[allow(missing_docs)]
@@ -200,104 +200,104 @@ impl CKSELR {
     #[inline]
     pub fn _from(value: u8) -> CKSELR {
         match value {
-            0 => CKSELR::RISING_EDGES_ON_INPU,
-            1 => CKSELR::FALLING_EDGES_ON_INP,
-            2 => CKSELR::RISING_EDGES_ON_INPU,
-            3 => CKSELR::FALLING_EDGES_ON_INP,
-            4 => CKSELR::RISING_EDGES_ON_INPU,
-            5 => CKSELR::FALLING_EDGES_ON_INP,
-            6 => CKSELR::RISING_EDGES_ON_INPU,
-            7 => CKSELR::FALLING_EDGES_ON_INP,
-            8 => CKSELR::RISING_EDGES_ON_INPU,
-            9 => CKSELR::FALLING_EDGES_ON_INP,
-            10 => CKSELR::RISING_EDGES_ON_INPU,
-            11 => CKSELR::FALLING_EDGES_ON_INP,
-            12 => CKSELR::RISING_EDGES_ON_INPU,
-            13 => CKSELR::FALLING_EDGES_ON_INP,
-            14 => CKSELR::RISING_EDGES_ON_INPU,
-            15 => CKSELR::FALLING_EDGES_ON_INP,
+            0 => CKSELR::RISING_EDGES_ON_INPUT_0,
+            1 => CKSELR::FALLING_EDGES_ON_INPUT_0,
+            2 => CKSELR::RISING_EDGES_ON_INPUT_1,
+            3 => CKSELR::FALLING_EDGES_ON_INPUT_1,
+            4 => CKSELR::RISING_EDGES_ON_INPUT_2,
+            5 => CKSELR::FALLING_EDGES_ON_INPUT_2,
+            6 => CKSELR::RISING_EDGES_ON_INPUT_3,
+            7 => CKSELR::FALLING_EDGES_ON_INPUT_3,
+            8 => CKSELR::RISING_EDGES_ON_INPUT_4,
+            9 => CKSELR::FALLING_EDGES_ON_INPUT_4,
+            10 => CKSELR::RISING_EDGES_ON_INPUT_5,
+            11 => CKSELR::FALLING_EDGES_ON_INPUT_5,
+            12 => CKSELR::RISING_EDGES_ON_INPUT_6,
+            13 => CKSELR::FALLING_EDGES_ON_INPUT_6,
+            14 => CKSELR::RISING_EDGES_ON_INPUT_7,
+            15 => CKSELR::FALLING_EDGES_ON_INPUT_7,
             _ => unreachable!(),
         }
     }
-    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPU`"]
+    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPUT_0`"]
     #[inline]
-    pub fn is_rising_edges_on_inpu(&self) -> bool {
-        *self == CKSELR::RISING_EDGES_ON_INPU
+    pub fn is_rising_edges_on_input_0(&self) -> bool {
+        *self == CKSELR::RISING_EDGES_ON_INPUT_0
     }
-    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INP`"]
+    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INPUT_0`"]
     #[inline]
-    pub fn is_falling_edges_on_inp(&self) -> bool {
-        *self == CKSELR::FALLING_EDGES_ON_INP
+    pub fn is_falling_edges_on_input_0(&self) -> bool {
+        *self == CKSELR::FALLING_EDGES_ON_INPUT_0
     }
-    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPU`"]
+    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPUT_1`"]
     #[inline]
-    pub fn is_rising_edges_on_inpu(&self) -> bool {
-        *self == CKSELR::RISING_EDGES_ON_INPU
+    pub fn is_rising_edges_on_input_1(&self) -> bool {
+        *self == CKSELR::RISING_EDGES_ON_INPUT_1
     }
-    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INP`"]
+    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INPUT_1`"]
     #[inline]
-    pub fn is_falling_edges_on_inp(&self) -> bool {
-        *self == CKSELR::FALLING_EDGES_ON_INP
+    pub fn is_falling_edges_on_input_1(&self) -> bool {
+        *self == CKSELR::FALLING_EDGES_ON_INPUT_1
     }
-    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPU`"]
+    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPUT_2`"]
     #[inline]
-    pub fn is_rising_edges_on_inpu(&self) -> bool {
-        *self == CKSELR::RISING_EDGES_ON_INPU
+    pub fn is_rising_edges_on_input_2(&self) -> bool {
+        *self == CKSELR::RISING_EDGES_ON_INPUT_2
     }
-    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INP`"]
+    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INPUT_2`"]
     #[inline]
-    pub fn is_falling_edges_on_inp(&self) -> bool {
-        *self == CKSELR::FALLING_EDGES_ON_INP
+    pub fn is_falling_edges_on_input_2(&self) -> bool {
+        *self == CKSELR::FALLING_EDGES_ON_INPUT_2
     }
-    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPU`"]
+    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPUT_3`"]
     #[inline]
-    pub fn is_rising_edges_on_inpu(&self) -> bool {
-        *self == CKSELR::RISING_EDGES_ON_INPU
+    pub fn is_rising_edges_on_input_3(&self) -> bool {
+        *self == CKSELR::RISING_EDGES_ON_INPUT_3
     }
-    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INP`"]
+    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INPUT_3`"]
     #[inline]
-    pub fn is_falling_edges_on_inp(&self) -> bool {
-        *self == CKSELR::FALLING_EDGES_ON_INP
+    pub fn is_falling_edges_on_input_3(&self) -> bool {
+        *self == CKSELR::FALLING_EDGES_ON_INPUT_3
     }
-    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPU`"]
+    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPUT_4`"]
     #[inline]
-    pub fn is_rising_edges_on_inpu(&self) -> bool {
-        *self == CKSELR::RISING_EDGES_ON_INPU
+    pub fn is_rising_edges_on_input_4(&self) -> bool {
+        *self == CKSELR::RISING_EDGES_ON_INPUT_4
     }
-    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INP`"]
+    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INPUT_4`"]
     #[inline]
-    pub fn is_falling_edges_on_inp(&self) -> bool {
-        *self == CKSELR::FALLING_EDGES_ON_INP
+    pub fn is_falling_edges_on_input_4(&self) -> bool {
+        *self == CKSELR::FALLING_EDGES_ON_INPUT_4
     }
-    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPU`"]
+    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPUT_5`"]
     #[inline]
-    pub fn is_rising_edges_on_inpu(&self) -> bool {
-        *self == CKSELR::RISING_EDGES_ON_INPU
+    pub fn is_rising_edges_on_input_5(&self) -> bool {
+        *self == CKSELR::RISING_EDGES_ON_INPUT_5
     }
-    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INP`"]
+    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INPUT_5`"]
     #[inline]
-    pub fn is_falling_edges_on_inp(&self) -> bool {
-        *self == CKSELR::FALLING_EDGES_ON_INP
+    pub fn is_falling_edges_on_input_5(&self) -> bool {
+        *self == CKSELR::FALLING_EDGES_ON_INPUT_5
     }
-    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPU`"]
+    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPUT_6`"]
     #[inline]
-    pub fn is_rising_edges_on_inpu(&self) -> bool {
-        *self == CKSELR::RISING_EDGES_ON_INPU
+    pub fn is_rising_edges_on_input_6(&self) -> bool {
+        *self == CKSELR::RISING_EDGES_ON_INPUT_6
     }
-    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INP`"]
+    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INPUT_6`"]
     #[inline]
-    pub fn is_falling_edges_on_inp(&self) -> bool {
-        *self == CKSELR::FALLING_EDGES_ON_INP
+    pub fn is_falling_edges_on_input_6(&self) -> bool {
+        *self == CKSELR::FALLING_EDGES_ON_INPUT_6
     }
-    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPU`"]
+    #[doc = "Checks if the value of the field is `RISING_EDGES_ON_INPUT_7`"]
     #[inline]
-    pub fn is_rising_edges_on_inpu(&self) -> bool {
-        *self == CKSELR::RISING_EDGES_ON_INPU
+    pub fn is_rising_edges_on_input_7(&self) -> bool {
+        *self == CKSELR::RISING_EDGES_ON_INPUT_7
     }
-    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INP`"]
+    #[doc = "Checks if the value of the field is `FALLING_EDGES_ON_INPUT_7`"]
     #[inline]
-    pub fn is_falling_edges_on_inp(&self) -> bool {
-        *self == CKSELR::FALLING_EDGES_ON_INP
+    pub fn is_falling_edges_on_input_7(&self) -> bool {
+        *self == CKSELR::FALLING_EDGES_ON_INPUT_7
     }
 }
 #[doc = r" Value of the field"]
@@ -512,37 +512,37 @@ impl<'a> _CLKMODEW<'a> {
 #[doc = "Values that can be written to the field `CKSEL`"]
 pub enum CKSELW {
     #[doc = "Rising edges on input 0."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_0,
     #[doc = "Falling edges on input 0."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_0,
     #[doc = "Rising edges on input 1."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_1,
     #[doc = "Falling edges on input 1."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_1,
     #[doc = "Rising edges on input 2."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_2,
     #[doc = "Falling edges on input 2."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_2,
     #[doc = "Rising edges on input 3."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_3,
     #[doc = "Falling edges on input 3."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_3,
     #[doc = "Rising edges on input 4."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_4,
     #[doc = "Falling edges on input 4."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_4,
     #[doc = "Rising edges on input 5."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_5,
     #[doc = "Falling edges on input 5."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_5,
     #[doc = "Rising edges on input 6."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_6,
     #[doc = "Falling edges on input 6."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_6,
     #[doc = "Rising edges on input 7."]
-    RISING_EDGES_ON_INPU,
+    RISING_EDGES_ON_INPUT_7,
     #[doc = "Falling edges on input 7."]
-    FALLING_EDGES_ON_INP,
+    FALLING_EDGES_ON_INPUT_7,
 }
 impl CKSELW {
     #[allow(missing_docs)]
@@ -550,22 +550,22 @@ impl CKSELW {
     #[inline]
     pub fn _bits(&self) -> u8 {
         match *self {
-            CKSELW::RISING_EDGES_ON_INPU => 0,
-            CKSELW::FALLING_EDGES_ON_INP => 1,
-            CKSELW::RISING_EDGES_ON_INPU => 2,
-            CKSELW::FALLING_EDGES_ON_INP => 3,
-            CKSELW::RISING_EDGES_ON_INPU => 4,
-            CKSELW::FALLING_EDGES_ON_INP => 5,
-            CKSELW::RISING_EDGES_ON_INPU => 6,
-            CKSELW::FALLING_EDGES_ON_INP => 7,
-            CKSELW::RISING_EDGES_ON_INPU => 8,
-            CKSELW::FALLING_EDGES_ON_INP => 9,
-            CKSELW::RISING_EDGES_ON_INPU => 10,
-            CKSELW::FALLING_EDGES_ON_INP => 11,
-            CKSELW::RISING_EDGES_ON_INPU => 12,
-            CKSELW::FALLING_EDGES_ON_INP => 13,
-            CKSELW::RISING_EDGES_ON_INPU => 14,
-            CKSELW::FALLING_EDGES_ON_INP => 15,
+            CKSELW::RISING_EDGES_ON_INPUT_0 => 0,
+            CKSELW::FALLING_EDGES_ON_INPUT_0 => 1,
+            CKSELW::RISING_EDGES_ON_INPUT_1 => 2,
+            CKSELW::FALLING_EDGES_ON_INPUT_1 => 3,
+            CKSELW::RISING_EDGES_ON_INPUT_2 => 4,
+            CKSELW::FALLING_EDGES_ON_INPUT_2 => 5,
+            CKSELW::RISING_EDGES_ON_INPUT_3 => 6,
+            CKSELW::FALLING_EDGES_ON_INPUT_3 => 7,
+            CKSELW::RISING_EDGES_ON_INPUT_4 => 8,
+            CKSELW::FALLING_EDGES_ON_INPUT_4 => 9,
+            CKSELW::RISING_EDGES_ON_INPUT_5 => 10,
+            CKSELW::FALLING_EDGES_ON_INPUT_5 => 11,
+            CKSELW::RISING_EDGES_ON_INPUT_6 => 12,
+            CKSELW::FALLING_EDGES_ON_INPUT_6 => 13,
+            CKSELW::RISING_EDGES_ON_INPUT_7 => 14,
+            CKSELW::FALLING_EDGES_ON_INPUT_7 => 15,
         }
     }
 }
@@ -583,83 +583,83 @@ impl<'a> _CKSELW<'a> {
     }
     #[doc = "Rising edges on input 0."]
     #[inline]
-    pub fn rising_edges_on_inpu(self) -> &'a mut W {
-        self.variant(CKSELW::RISING_EDGES_ON_INPU)
+    pub fn rising_edges_on_input_0(self) -> &'a mut W {
+        self.variant(CKSELW::RISING_EDGES_ON_INPUT_0)
     }
     #[doc = "Falling edges on input 0."]
     #[inline]
-    pub fn falling_edges_on_inp(self) -> &'a mut W {
-        self.variant(CKSELW::FALLING_EDGES_ON_INP)
+    pub fn falling_edges_on_input_0(self) -> &'a mut W {
+        self.variant(CKSELW::FALLING_EDGES_ON_INPUT_0)
     }
     #[doc = "Rising edges on input 1."]
     #[inline]
-    pub fn rising_edges_on_inpu(self) -> &'a mut W {
-        self.variant(CKSELW::RISING_EDGES_ON_INPU)
+    pub fn rising_edges_on_input_1(self) -> &'a mut W {
+        self.variant(CKSELW::RISING_EDGES_ON_INPUT_1)
     }
     #[doc = "Falling edges on input 1."]
     #[inline]
-    pub fn falling_edges_on_inp(self) -> &'a mut W {
-        self.variant(CKSELW::FALLING_EDGES_ON_INP)
+    pub fn falling_edges_on_input_1(self) -> &'a mut W {
+        self.variant(CKSELW::FALLING_EDGES_ON_INPUT_1)
     }
     #[doc = "Rising edges on input 2."]
     #[inline]
-    pub fn rising_edges_on_inpu(self) -> &'a mut W {
-        self.variant(CKSELW::RISING_EDGES_ON_INPU)
+    pub fn rising_edges_on_input_2(self) -> &'a mut W {
+        self.variant(CKSELW::RISING_EDGES_ON_INPUT_2)
     }
     #[doc = "Falling edges on input 2."]
     #[inline]
-    pub fn falling_edges_on_inp(self) -> &'a mut W {
-        self.variant(CKSELW::FALLING_EDGES_ON_INP)
+    pub fn falling_edges_on_input_2(self) -> &'a mut W {
+        self.variant(CKSELW::FALLING_EDGES_ON_INPUT_2)
     }
     #[doc = "Rising edges on input 3."]
     #[inline]
-    pub fn rising_edges_on_inpu(self) -> &'a mut W {
-        self.variant(CKSELW::RISING_EDGES_ON_INPU)
+    pub fn rising_edges_on_input_3(self) -> &'a mut W {
+        self.variant(CKSELW::RISING_EDGES_ON_INPUT_3)
     }
     #[doc = "Falling edges on input 3."]
     #[inline]
-    pub fn falling_edges_on_inp(self) -> &'a mut W {
-        self.variant(CKSELW::FALLING_EDGES_ON_INP)
+    pub fn falling_edges_on_input_3(self) -> &'a mut W {
+        self.variant(CKSELW::FALLING_EDGES_ON_INPUT_3)
     }
     #[doc = "Rising edges on input 4."]
     #[inline]
-    pub fn rising_edges_on_inpu(self) -> &'a mut W {
-        self.variant(CKSELW::RISING_EDGES_ON_INPU)
+    pub fn rising_edges_on_input_4(self) -> &'a mut W {
+        self.variant(CKSELW::RISING_EDGES_ON_INPUT_4)
     }
     #[doc = "Falling edges on input 4."]
     #[inline]
-    pub fn falling_edges_on_inp(self) -> &'a mut W {
-        self.variant(CKSELW::FALLING_EDGES_ON_INP)
+    pub fn falling_edges_on_input_4(self) -> &'a mut W {
+        self.variant(CKSELW::FALLING_EDGES_ON_INPUT_4)
     }
     #[doc = "Rising edges on input 5."]
     #[inline]
-    pub fn rising_edges_on_inpu(self) -> &'a mut W {
-        self.variant(CKSELW::RISING_EDGES_ON_INPU)
+    pub fn rising_edges_on_input_5(self) -> &'a mut W {
+        self.variant(CKSELW::RISING_EDGES_ON_INPUT_5)
     }
     #[doc = "Falling edges on input 5."]
     #[inline]
-    pub fn falling_edges_on_inp(self) -> &'a mut W {
-        self.variant(CKSELW::FALLING_EDGES_ON_INP)
+    pub fn falling_edges_on_input_5(self) -> &'a mut W {
+        self.variant(CKSELW::FALLING_EDGES_ON_INPUT_5)
     }
     #[doc = "Rising edges on input 6."]
     #[inline]
-    pub fn rising_edges_on_inpu(self) -> &'a mut W {
-        self.variant(CKSELW::RISING_EDGES_ON_INPU)
+    pub fn rising_edges_on_input_6(self) -> &'a mut W {
+        self.variant(CKSELW::RISING_EDGES_ON_INPUT_6)
     }
     #[doc = "Falling edges on input 6."]
     #[inline]
-    pub fn falling_edges_on_inp(self) -> &'a mut W {
-        self.variant(CKSELW::FALLING_EDGES_ON_INP)
+    pub fn falling_edges_on_input_6(self) -> &'a mut W {
+        self.variant(CKSELW::FALLING_EDGES_ON_INPUT_6)
     }
     #[doc = "Rising edges on input 7."]
     #[inline]
-    pub fn rising_edges_on_inpu(self) -> &'a mut W {
-        self.variant(CKSELW::RISING_EDGES_ON_INPU)
+    pub fn rising_edges_on_input_7(self) -> &'a mut W {
+        self.variant(CKSELW::RISING_EDGES_ON_INPUT_7)
     }
     #[doc = "Falling edges on input 7."]
     #[inline]
-    pub fn falling_edges_on_inp(self) -> &'a mut W {
-        self.variant(CKSELW::FALLING_EDGES_ON_INP)
+    pub fn falling_edges_on_input_7(self) -> &'a mut W {
+        self.variant(CKSELW::FALLING_EDGES_ON_INPUT_7)
     }
     #[doc = r" Writes raw bits to the field"]
     #[inline]

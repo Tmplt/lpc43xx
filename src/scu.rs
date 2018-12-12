@@ -5,53 +5,53 @@ pub struct RegisterBlock {
     pub sfsp0_: [SFSP0_; 2],
     _reserved0: [u8; 120usize],
     #[doc = "0x80 - Pin configuration register for pins P1"]
-    pub sfsp1_: [SFSP1_; 17],
+    pub sfsp1__fix1: [SFSP1__FIX1; 17],
     #[doc = "0xc4 - Pin configuration register for pins P1_17"]
     pub sfsp1_17: SFSP1_17,
     #[doc = "0xc8 - Pin configuration register for pins P1"]
-    pub sfsp1_18: SFSP1_,
+    pub sfsp1_18_fix2: SFSP1__FIX2,
     #[doc = "0xcc - Pin configuration register for pins P1"]
-    pub sfsp1_19: SFSP1_,
+    pub sfsp1_19_fix2: SFSP1__FIX2,
     #[doc = "0xd0 - Pin configuration register for pins P1"]
-    pub sfsp1_20: SFSP1_,
+    pub sfsp1_20_fix2: SFSP1__FIX2,
     _reserved1: [u8; 44usize],
     #[doc = "0x100 - Pin configuration register for pins P2"]
-    pub sfsp2_: [SFSP2_; 3],
+    pub sfsp2__fix1: [SFSP2__FIX1; 3],
     #[doc = "0x10c - Pin configuration register for pins P2"]
-    pub sfsp2_3: SFSP2_,
+    pub sfsp2_3_fix2: SFSP2__FIX2,
     #[doc = "0x110 - Pin configuration register for pins P2"]
-    pub sfsp2_4: SFSP2_,
+    pub sfsp2_4_fix2: SFSP2__FIX2,
     #[doc = "0x114 - Pin configuration register for pins P2"]
-    pub sfsp2_5: SFSP2_,
+    pub sfsp2_5_fix2: SFSP2__FIX2,
     #[doc = "0x118 - Pin configuration register for pins P2"]
-    pub sfsp2_6: SFSP2_,
+    pub sfsp2_6_fix3: SFSP2__FIX3,
     #[doc = "0x11c - Pin configuration register for pins P2"]
-    pub sfsp2_7: SFSP2_,
+    pub sfsp2_7_fix3: SFSP2__FIX3,
     #[doc = "0x120 - Pin configuration register for pins P2"]
-    pub sfsp2_8: SFSP2_,
+    pub sfsp2_8_fix3: SFSP2__FIX3,
     #[doc = "0x124 - Pin configuration register for pins P2"]
-    pub sfsp2_9: SFSP2_,
+    pub sfsp2_9_fix3: SFSP2__FIX3,
     #[doc = "0x128 - Pin configuration register for pins P2"]
-    pub sfsp2_10: SFSP2_,
+    pub sfsp2_10_fix3: SFSP2__FIX3,
     #[doc = "0x12c - Pin configuration register for pins P2"]
-    pub sfsp2_11: SFSP2_,
+    pub sfsp2_11_fix3: SFSP2__FIX3,
     #[doc = "0x130 - Pin configuration register for pins P2"]
-    pub sfsp2_12: SFSP2_,
+    pub sfsp2_12_fix3: SFSP2__FIX3,
     _reserved2: [u8; 76usize],
     #[doc = "0x180 - Pin configuration register for pins P3"]
-    pub sfsp3_: [SFSP3_; 3],
+    pub sfsp3__fix1: [SFSP3__FIX1; 3],
     #[doc = "0x18c - Pin configuration register for pins P3"]
     pub sfsp3_3: SFSP3_3,
     #[doc = "0x190 - Pin configuration register for pins P3"]
-    pub sfsp3_4: SFSP3_,
+    pub sfsp3_4_fix2: SFSP3__FIX2,
     #[doc = "0x194 - Pin configuration register for pins P3"]
-    pub sfsp3_5: SFSP3_,
+    pub sfsp3_5_fix2: SFSP3__FIX2,
     #[doc = "0x198 - Pin configuration register for pins P3"]
-    pub sfsp3_6: SFSP3_,
+    pub sfsp3_6_fix2: SFSP3__FIX2,
     #[doc = "0x19c - Pin configuration register for pins P3"]
-    pub sfsp3_7: SFSP3_,
+    pub sfsp3_7_fix2: SFSP3__FIX2,
     #[doc = "0x1a0 - Pin configuration register for pins P3"]
-    pub sfsp3_8: SFSP3_,
+    pub sfsp3_8_fix2: SFSP3__FIX2,
     _reserved3: [u8; 92usize],
     #[doc = "0x200 - Pin configuration register for pins P4"]
     pub sfsp4_: [SFSP4_; 11],
@@ -66,19 +66,19 @@ pub struct RegisterBlock {
     pub sfsp7_: [SFSP7_; 8],
     _reserved7: [u8; 96usize],
     #[doc = "0x400 - Pin configuration register for pins P8"]
-    pub sfsp8_: [SFSP8_; 3],
+    pub sfsp8__fix1: [SFSP8__FIX1; 3],
     #[doc = "0x40c - Pin configuration register for pins P8"]
-    pub sfsp8_3: SFSP8_,
+    pub sfsp8_3_fix2: SFSP8__FIX2,
     #[doc = "0x410 - Pin configuration register for pins P8"]
-    pub sfsp8_4: SFSP8_,
+    pub sfsp8_4_fix2: SFSP8__FIX2,
     #[doc = "0x414 - Pin configuration register for pins P8"]
-    pub sfsp8_5: SFSP8_,
+    pub sfsp8_5_fix2: SFSP8__FIX2,
     #[doc = "0x418 - Pin configuration register for pins P8"]
-    pub sfsp8_6: SFSP8_,
+    pub sfsp8_6_fix2: SFSP8__FIX2,
     #[doc = "0x41c - Pin configuration register for pins P8"]
-    pub sfsp8_7: SFSP8_,
+    pub sfsp8_7_fix2: SFSP8__FIX2,
     #[doc = "0x420 - Pin configuration register for pins P8"]
-    pub sfsp8_8: SFSP8_,
+    pub sfsp8_8_fix2: SFSP8__FIX2,
     _reserved8: [u8; 92usize],
     #[doc = "0x480 - Pin configuration register for pins P9"]
     pub sfsp9_: [SFSP9_; 7],
@@ -141,11 +141,11 @@ pub struct SFSP0_ {
 #[doc = "Pin configuration register for pins P0"]
 pub mod sfsp0_;
 #[doc = "Pin configuration register for pins P1"]
-pub struct SFSP1_ {
+pub struct SFSP1__FIX1 {
     register: ::vcell::VolatileCell<u32>,
 }
 #[doc = "Pin configuration register for pins P1"]
-pub mod sfsp1_;
+pub mod sfsp1__fix1;
 #[doc = "Pin configuration register for pins P1_17"]
 pub struct SFSP1_17 {
     register: ::vcell::VolatileCell<u32>,
@@ -153,35 +153,35 @@ pub struct SFSP1_17 {
 #[doc = "Pin configuration register for pins P1_17"]
 pub mod sfsp1_17;
 #[doc = "Pin configuration register for pins P1"]
-pub struct SFSP1_ {
+pub struct SFSP1__FIX2 {
     register: ::vcell::VolatileCell<u32>,
 }
 #[doc = "Pin configuration register for pins P1"]
-pub mod sfsp1_;
+pub mod sfsp1__fix2;
 #[doc = "Pin configuration register for pins P2"]
-pub struct SFSP2_ {
+pub struct SFSP2__FIX1 {
     register: ::vcell::VolatileCell<u32>,
 }
 #[doc = "Pin configuration register for pins P2"]
-pub mod sfsp2_;
+pub mod sfsp2__fix1;
 #[doc = "Pin configuration register for pins P2"]
-pub struct SFSP2_ {
+pub struct SFSP2__FIX2 {
     register: ::vcell::VolatileCell<u32>,
 }
 #[doc = "Pin configuration register for pins P2"]
-pub mod sfsp2_;
+pub mod sfsp2__fix2;
 #[doc = "Pin configuration register for pins P2"]
-pub struct SFSP2_ {
+pub struct SFSP2__FIX3 {
     register: ::vcell::VolatileCell<u32>,
 }
 #[doc = "Pin configuration register for pins P2"]
-pub mod sfsp2_;
+pub mod sfsp2__fix3;
 #[doc = "Pin configuration register for pins P3"]
-pub struct SFSP3_ {
+pub struct SFSP3__FIX1 {
     register: ::vcell::VolatileCell<u32>,
 }
 #[doc = "Pin configuration register for pins P3"]
-pub mod sfsp3_;
+pub mod sfsp3__fix1;
 #[doc = "Pin configuration register for pins P3"]
 pub struct SFSP3_3 {
     register: ::vcell::VolatileCell<u32>,
@@ -189,11 +189,11 @@ pub struct SFSP3_3 {
 #[doc = "Pin configuration register for pins P3"]
 pub mod sfsp3_3;
 #[doc = "Pin configuration register for pins P3"]
-pub struct SFSP3_ {
+pub struct SFSP3__FIX2 {
     register: ::vcell::VolatileCell<u32>,
 }
 #[doc = "Pin configuration register for pins P3"]
-pub mod sfsp3_;
+pub mod sfsp3__fix2;
 #[doc = "Pin configuration register for pins P4"]
 pub struct SFSP4_ {
     register: ::vcell::VolatileCell<u32>,
@@ -219,17 +219,17 @@ pub struct SFSP7_ {
 #[doc = "Pin configuration register for pins P7"]
 pub mod sfsp7_;
 #[doc = "Pin configuration register for pins P8"]
-pub struct SFSP8_ {
+pub struct SFSP8__FIX1 {
     register: ::vcell::VolatileCell<u32>,
 }
 #[doc = "Pin configuration register for pins P8"]
-pub mod sfsp8_;
+pub mod sfsp8__fix1;
 #[doc = "Pin configuration register for pins P8"]
-pub struct SFSP8_ {
+pub struct SFSP8__FIX2 {
     register: ::vcell::VolatileCell<u32>,
 }
 #[doc = "Pin configuration register for pins P8"]
-pub mod sfsp8_;
+pub mod sfsp8__fix2;
 #[doc = "Pin configuration register for pins P9"]
 pub struct SFSP9_ {
     register: ::vcell::VolatileCell<u32>,

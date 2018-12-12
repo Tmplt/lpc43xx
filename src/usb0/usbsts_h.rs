@@ -424,7 +424,7 @@ pub enum PSR {
     #[doc = "The periodic schedule status is disabled."]
     DISABLED,
     #[doc = "The periodic schedule status is enabled."]
-    DISABLED,
+    ENABLED,
 }
 impl PSR {
     #[doc = r" Returns `true` if the bit is clear (0)"]
@@ -442,7 +442,7 @@ impl PSR {
     pub fn bit(&self) -> bool {
         match *self {
             PSR::DISABLED => false,
-            PSR::DISABLED => true,
+            PSR::ENABLED => true,
         }
     }
     #[allow(missing_docs)]
@@ -451,7 +451,7 @@ impl PSR {
     pub fn _from(value: bool) -> PSR {
         match value {
             false => PSR::DISABLED,
-            true => PSR::DISABLED,
+            true => PSR::ENABLED,
         }
     }
     #[doc = "Checks if the value of the field is `DISABLED`"]
@@ -459,10 +459,10 @@ impl PSR {
     pub fn is_disabled(&self) -> bool {
         *self == PSR::DISABLED
     }
-    #[doc = "Checks if the value of the field is `DISABLED`"]
+    #[doc = "Checks if the value of the field is `ENABLED`"]
     #[inline]
-    pub fn is_disabled(&self) -> bool {
-        *self == PSR::DISABLED
+    pub fn is_enabled(&self) -> bool {
+        *self == PSR::ENABLED
     }
 }
 #[doc = "Possible values of the field `AS`"]
@@ -471,7 +471,7 @@ pub enum ASR {
     #[doc = "Asynchronous schedule status is disabled."]
     DISABLED,
     #[doc = "Asynchronous schedule status is enabled."]
-    DISABLED,
+    ENABLED,
 }
 impl ASR {
     #[doc = r" Returns `true` if the bit is clear (0)"]
@@ -489,7 +489,7 @@ impl ASR {
     pub fn bit(&self) -> bool {
         match *self {
             ASR::DISABLED => false,
-            ASR::DISABLED => true,
+            ASR::ENABLED => true,
         }
     }
     #[allow(missing_docs)]
@@ -498,7 +498,7 @@ impl ASR {
     pub fn _from(value: bool) -> ASR {
         match value {
             false => ASR::DISABLED,
-            true => ASR::DISABLED,
+            true => ASR::ENABLED,
         }
     }
     #[doc = "Checks if the value of the field is `DISABLED`"]
@@ -506,10 +506,10 @@ impl ASR {
     pub fn is_disabled(&self) -> bool {
         *self == ASR::DISABLED
     }
-    #[doc = "Checks if the value of the field is `DISABLED`"]
+    #[doc = "Checks if the value of the field is `ENABLED`"]
     #[inline]
-    pub fn is_disabled(&self) -> bool {
-        *self == ASR::DISABLED
+    pub fn is_enabled(&self) -> bool {
+        *self == ASR::ENABLED
     }
 }
 #[doc = "Possible values of the field `UAI`"]
@@ -1075,7 +1075,7 @@ pub enum PSW {
     #[doc = "The periodic schedule status is disabled."]
     DISABLED,
     #[doc = "The periodic schedule status is enabled."]
-    DISABLED,
+    ENABLED,
 }
 impl PSW {
     #[allow(missing_docs)]
@@ -1084,7 +1084,7 @@ impl PSW {
     pub fn _bits(&self) -> bool {
         match *self {
             PSW::DISABLED => false,
-            PSW::DISABLED => true,
+            PSW::ENABLED => true,
         }
     }
 }
@@ -1107,8 +1107,8 @@ impl<'a> _PSW<'a> {
     }
     #[doc = "The periodic schedule status is enabled."]
     #[inline]
-    pub fn disabled(self) -> &'a mut W {
-        self.variant(PSW::DISABLED)
+    pub fn enabled(self) -> &'a mut W {
+        self.variant(PSW::ENABLED)
     }
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
@@ -1133,7 +1133,7 @@ pub enum ASW {
     #[doc = "Asynchronous schedule status is disabled."]
     DISABLED,
     #[doc = "Asynchronous schedule status is enabled."]
-    DISABLED,
+    ENABLED,
 }
 impl ASW {
     #[allow(missing_docs)]
@@ -1142,7 +1142,7 @@ impl ASW {
     pub fn _bits(&self) -> bool {
         match *self {
             ASW::DISABLED => false,
-            ASW::DISABLED => true,
+            ASW::ENABLED => true,
         }
     }
 }
@@ -1165,8 +1165,8 @@ impl<'a> _ASW<'a> {
     }
     #[doc = "Asynchronous schedule status is enabled."]
     #[inline]
-    pub fn disabled(self) -> &'a mut W {
-        self.variant(ASW::DISABLED)
+    pub fn enabled(self) -> &'a mut W {
+        self.variant(ASW::ENABLED)
     }
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {

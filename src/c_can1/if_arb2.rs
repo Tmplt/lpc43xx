@@ -151,9 +151,9 @@ impl XTDR {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum MSGVALR {
     #[doc = "The message object is configured and should be considered by the message handler."]
-    THE_MESSAGE_OBJECT_I,
+    THE_MESSAGE_OBJECT_IS_CONFIGURED,
     #[doc = "The message object is ignored by the message handler."]
-    THE_MESSAGE_OBJECT_I,
+    THE_MESSAGE_OBJECT_IS_IGNORED,
 }
 impl MSGVALR {
     #[doc = r" Returns `true` if the bit is clear (0)"]
@@ -170,8 +170,8 @@ impl MSGVALR {
     #[inline]
     pub fn bit(&self) -> bool {
         match *self {
-            MSGVALR::THE_MESSAGE_OBJECT_I => true,
-            MSGVALR::THE_MESSAGE_OBJECT_I => false,
+            MSGVALR::THE_MESSAGE_OBJECT_IS_CONFIGURED => true,
+            MSGVALR::THE_MESSAGE_OBJECT_IS_IGNORED => false,
         }
     }
     #[allow(missing_docs)]
@@ -179,19 +179,19 @@ impl MSGVALR {
     #[inline]
     pub fn _from(value: bool) -> MSGVALR {
         match value {
-            true => MSGVALR::THE_MESSAGE_OBJECT_I,
-            false => MSGVALR::THE_MESSAGE_OBJECT_I,
+            true => MSGVALR::THE_MESSAGE_OBJECT_IS_CONFIGURED,
+            false => MSGVALR::THE_MESSAGE_OBJECT_IS_IGNORED,
         }
     }
-    #[doc = "Checks if the value of the field is `THE_MESSAGE_OBJECT_I`"]
+    #[doc = "Checks if the value of the field is `THE_MESSAGE_OBJECT_IS_CONFIGURED`"]
     #[inline]
-    pub fn is_the_message_object_i(&self) -> bool {
-        *self == MSGVALR::THE_MESSAGE_OBJECT_I
+    pub fn is_the_message_object_is_configured(&self) -> bool {
+        *self == MSGVALR::THE_MESSAGE_OBJECT_IS_CONFIGURED
     }
-    #[doc = "Checks if the value of the field is `THE_MESSAGE_OBJECT_I`"]
+    #[doc = "Checks if the value of the field is `THE_MESSAGE_OBJECT_IS_IGNORED`"]
     #[inline]
-    pub fn is_the_message_object_i(&self) -> bool {
-        *self == MSGVALR::THE_MESSAGE_OBJECT_I
+    pub fn is_the_message_object_is_ignored(&self) -> bool {
+        *self == MSGVALR::THE_MESSAGE_OBJECT_IS_IGNORED
     }
 }
 #[doc = r" Proxy"]
@@ -328,9 +328,9 @@ impl<'a> _XTDW<'a> {
 #[doc = "Values that can be written to the field `MSGVAL`"]
 pub enum MSGVALW {
     #[doc = "The message object is configured and should be considered by the message handler."]
-    THE_MESSAGE_OBJECT_I,
+    THE_MESSAGE_OBJECT_IS_CONFIGURED,
     #[doc = "The message object is ignored by the message handler."]
-    THE_MESSAGE_OBJECT_I,
+    THE_MESSAGE_OBJECT_IS_IGNORED,
 }
 impl MSGVALW {
     #[allow(missing_docs)]
@@ -338,8 +338,8 @@ impl MSGVALW {
     #[inline]
     pub fn _bits(&self) -> bool {
         match *self {
-            MSGVALW::THE_MESSAGE_OBJECT_I => true,
-            MSGVALW::THE_MESSAGE_OBJECT_I => false,
+            MSGVALW::THE_MESSAGE_OBJECT_IS_CONFIGURED => true,
+            MSGVALW::THE_MESSAGE_OBJECT_IS_IGNORED => false,
         }
     }
 }
@@ -357,13 +357,13 @@ impl<'a> _MSGVALW<'a> {
     }
     #[doc = "The message object is configured and should be considered by the message handler."]
     #[inline]
-    pub fn the_message_object_i(self) -> &'a mut W {
-        self.variant(MSGVALW::THE_MESSAGE_OBJECT_I)
+    pub fn the_message_object_is_configured(self) -> &'a mut W {
+        self.variant(MSGVALW::THE_MESSAGE_OBJECT_IS_CONFIGURED)
     }
     #[doc = "The message object is ignored by the message handler."]
     #[inline]
-    pub fn the_message_object_i(self) -> &'a mut W {
-        self.variant(MSGVALW::THE_MESSAGE_OBJECT_I)
+    pub fn the_message_object_is_ignored(self) -> &'a mut W {
+        self.variant(MSGVALW::THE_MESSAGE_OBJECT_IS_IGNORED)
     }
     #[doc = r" Sets the field bit"]
     pub fn set_bit(self) -> &'a mut W {
