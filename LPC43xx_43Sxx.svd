@@ -142,82 +142,82 @@
 				<enumeratedValues>												
 				<name>ENUM</name>												
 					<enumeratedValue>											
-						<name>RISING_EDGES_ON_INPU</name>										
+						<name>RISING_EDGES_ON_INPUT_0</name>										
 						<description>Rising edges on input 0.</description>										
 						<value>0x0</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>FALLING_EDGES_ON_INP</name>										
+						<name>FALLING_EDGES_ON_INPUT_0</name>										
 						<description>Falling edges on input 0.</description>										
 						<value>0x1</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>RISING_EDGES_ON_INPU</name>										
+						<name>RISING_EDGES_ON_INPUT_1</name>										
 						<description>Rising edges on input 1.</description>										
 						<value>0x2</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>FALLING_EDGES_ON_INP</name>										
+						<name>FALLING_EDGES_ON_INPUT_1</name>										
 						<description>Falling edges on input 1.</description>										
 						<value>0x3</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>RISING_EDGES_ON_INPU</name>										
+						<name>RISING_EDGES_ON_INPUT_2</name>										
 						<description>Rising edges on input 2.</description>										
 						<value>0x4</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>FALLING_EDGES_ON_INP</name>										
+						<name>FALLING_EDGES_ON_INPUT_2</name>										
 						<description>Falling edges on input 2.</description>										
 						<value>0x5</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>RISING_EDGES_ON_INPU</name>										
+						<name>RISING_EDGES_ON_INPUT_3</name>										
 						<description>Rising edges on input 3.</description>										
 						<value>0x6</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>FALLING_EDGES_ON_INP</name>										
+						<name>FALLING_EDGES_ON_INPUT_3</name>										
 						<description>Falling edges on input 3.</description>										
 						<value>0x7</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>RISING_EDGES_ON_INPU</name>										
+						<name>RISING_EDGES_ON_INPUT_4</name>										
 						<description>Rising edges on input 4.</description>										
 						<value>0x8</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>FALLING_EDGES_ON_INP</name>										
+						<name>FALLING_EDGES_ON_INPUT_4</name>										
 						<description>Falling edges on input 4.</description>										
 						<value>0x9</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>RISING_EDGES_ON_INPU</name>										
+						<name>RISING_EDGES_ON_INPUT_5</name>										
 						<description>Rising edges on input 5.</description>										
 						<value>0xA</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>FALLING_EDGES_ON_INP</name>										
+						<name>FALLING_EDGES_ON_INPUT_5</name>										
 						<description>Falling edges on input 5.</description>										
 						<value>0xB</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>RISING_EDGES_ON_INPU</name>										
+						<name>RISING_EDGES_ON_INPUT_6</name>										
 						<description>Rising edges on input 6.</description>										
 						<value>0xC</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>FALLING_EDGES_ON_INP</name>										
+						<name>FALLING_EDGES_ON_INPUT_6</name>										
 						<description>Falling edges on input 6.</description>										
 						<value>0xD</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>RISING_EDGES_ON_INPU</name>										
+						<name>RISING_EDGES_ON_INPUT_7</name>										
 						<description>Rising edges on input 7.</description>										
 						<value>0xE</value>										
 					</enumeratedValue>											
 					<enumeratedValue>											
-						<name>FALLING_EDGES_ON_INP</name>										
+						<name>FALLING_EDGES_ON_INPUT_7</name>										
 						<description>Falling edges on input 7.</description>										
 						<value>0xF</value>										
 					</enumeratedValue>											
@@ -4157,12 +4157,12 @@
 							<enumeratedValues>
 								<name>ENUM</name>
 								<enumeratedValue>
-									<name>THE_DESTINATION_ADDR</name>
+									<name>THE_DESTINATION_ADDRESS_IS_NOT_INCREMENTED</name>
 									<description>The destination address is not incremented after each transfer.</description>
 									<value>0</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>THE_DESTINATION_ADDR</name>
+									<name>THE_DESTINATION_ADDRESS_IS_INCREMENTED</name>
 									<description>The destination address is incremented after each transfer.</description>
 									<value>1</value>
 								</enumeratedValue>
@@ -4229,12 +4229,12 @@
 							<enumeratedValues>
 								<name>ENUM</name>
 								<enumeratedValue>
-									<name>THE_TERMINAL_COUNT_I</name>
+									<name>THE_TERMINAL_COUNT_INTERRUPT_IS_DISABLED</name>
 									<description>The terminal count interrupt is disabled.</description>
 									<value>0</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>THE_TERMINAL_COUNT_I</name>
+									<name>THE_TERMINAL_COUNT_INTERRUPT_IS_ENABLED</name>
 									<description>The terminal count interrupt is enabled.</description>
 									<value>1</value>
 								</enumeratedValue>
@@ -4283,62 +4283,62 @@
 									<value>0x0</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_TIMER_0_MAT</name>
+									<name>SOURCE_EQ_TIMER_0_MATCH_0_UART0_TRANSMIT</name>
 									<description>Source = Timer 0 match 0/UART0 transmit</description>
 									<value>0x1</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_TIMER_0_MAT</name>
+									<name>SOURCE_EQ_TIMER_0_MATCH_1_UART0_RECEIVE</name>
 									<description>Source = Timer 0 match 1/UART0 receive</description>
 									<value>0x2</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_TIMER_1_MAT</name>
+									<name>SOURCE_EQ_TIMER_1_MATCH_0_UART1_TRANSMIT</name>
 									<description>Source = Timer 1 match 0/UART1 transmit</description>
 									<value>0x3</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_TIMER_1_MAT</name>
+									<name>SOURCE_EQ_TIMER_1_MATCH_1_UART1_RECEIVE</name>
 									<description>Source = Timer 1 match 1/UART 1 receive</description>
 									<value>0x4</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_TIMER_2_MAT</name>
+									<name>SOURCE_EQ_TIMER_2_MATCH_0_UART2_TRANSMIT</name>
 									<description>Source = Timer 2 match 0/UART 2 transmit</description>
 									<value>0x5</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_TIMER_2_MAT</name>
+									<name>SOURCE_EQ_TIMER_2_MATCH_1_UART2_RECEIVE</name>
 									<description>Source = Timer 2 match 1/UART 2 receive</description>
 									<value>0x6</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_TIMER_3_MAT</name>
+									<name>SOURCE_EQ_TIMER_3_MATCH_0_UART3_RECEIVE_DMA_REQ_0</name>
 									<description>Source = Timer 3 match 0/UART3 transmit/SCT DMA request 0</description>
 									<value>0x7</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_TIMER_3_MAT</name>
+									<name>SOURCE_EQ_TIMER_3_MATCH_1_UART3_RECEIVE_DMA_REQ_1</name>
 									<description>Source = Timer 3 match 1/UART3 receive/SCT DMA request 1</description>
 									<value>0x8</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_SSP0_RECEIV</name>
+									<name>SOURCE_EQ_SSP0_RECEIVE_CH0</name>
 									<description>Source = SSP0 receive/I2S channel 0</description>
 									<value>0x9</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_SSP0_TRANSM</name>
+									<name>SOURCE_EQ_SSP0_TRANSMIT_CH1</name>
 									<description>Source = SSP0 transmit/I2S channel 1</description>
 									<value>0xA</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_SSP1_RECEIV</name>
+									<name>SOURCE_EQ_SSP1_RECEIVE</name>
 									<description>Source = SSP1 receive</description>
 									<value>0xB</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_EQ_SSP1_TRANSM</name>
+									<name>SOURCE_EQ_SSP1_TRANSMIT</name>
 									<description>Source = SSP1 transmit</description>
 									<value>0xC</value>
 								</enumeratedValue>
@@ -4371,62 +4371,62 @@
 									<value>0x0</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_TIMER_</name>
+									<name>DESTINATION_EQ_TIMER_0_MATCH_0_UART0_TRANSMIT</name>
 									<description>Destination = Timer 0 match 0/UART0 transmit</description>
 									<value>0x1</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_TIMER_</name>
+									<name>DESTINATION_EQ_TIMER_0_MATCH_1_UART0_RECEIEVE</name>
 									<description>Destination = Timer 0 match 1/UART0 receive</description>
 									<value>0x2</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_TIMER_</name>
+									<name>DESTINATION_EQ_TIMER_1_MATCH_0_UART1_TRANSMIT</name>
 									<description>Destination = Timer 1 match 0/UART1 transmit</description>
 									<value>0x3</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_TIMER_</name>
+									<name>DESTINATION_EQ_TIMER_1_MATCH_1_UART1_RECEIVE</name>
 									<description>Destination = Timer 1 match 1/UART 1 receive</description>
 									<value>0x4</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_TIMER_</name>
+									<name>DESTINATION_EQ_TIMER_2_MATCH_0_UART2_TRANSMIT</name>
 									<description>Destination = Timer 2 match 0/UART 2 transmit</description>
 									<value>0x5</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_TIMER_</name>
+									<name>DESTINATION_EQ_TIMER_2_MATCH_1_UART2_RECEIVE</name>
 									<description>Destination = Timer 2 match 1/UART 2 receive</description>
 									<value>0x6</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_TIMER_</name>
+									<name>DESTINATION_EQ_TIMER_3_MATCH_0_UART3_TRANSMIT_DMA_REQ_0</name>
 									<description>Destination = Timer 3 match 0/UART3 transmit/SCT DMA request 0</description>
 									<value>0x7</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_TIMER_</name>
+									<name>DESTINATION_EQ_TIMER_3_MATCH_1_UART3_RECEIVE_DMA_REQ_1</name>
 									<description>Destination = Timer 3 match 1/UART3 receive/SCT DMA request 1</description>
 									<value>0x8</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_SSP0_R</name>
+									<name>DESTINATION_EQ_SSP0_RECEIVE_CH0</name>
 									<description>Destination = SSP0 receive/I2S channel 0</description>
 									<value>0x9</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_SSP0_T</name>
+									<name>DESTINATION_EQ_SSP0_TRANSMIT_CH1</name>
 									<description>Destination = SSP0 transmit/I2S channel 1</description>
 									<value>0xA</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_SSP1_R</name>
+									<name>DESTINATION_EQ_SSP1_RECEIVE</name>
 									<description>Destination = SSP1 receive</description>
 									<value>0xB</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DESTINATION_EQ_SSP1_T</name>
+									<name>DESTINATION_EQ_SSP1_TRANSMIT</name>
 									<description>Destination = SSP1 transmit</description>
 									<value>0xC</value>
 								</enumeratedValue>
@@ -4459,37 +4459,37 @@
 									<value>0x0</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>MEMORY_TO_PERIPHERAL</name>
+									<name>MEMORY_TO_PERIPHERAL_DMA_CONTROL</name>
 									<description>Memory to peripheral (DMA control)</description>
 									<value>0x1</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>PERIPHERAL_TO_MEMORY</name>
+									<name>PERIPHERAL_TO_MEMORY_DMA_CONTROL</name>
 									<description>Peripheral to memory (DMA control)</description>
 									<value>0x2</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_PERIPHERAL_TO</name>
+									<name>SOURCE_PERIPHERAL_TO_DMA_CONTROL</name>
 									<description>Source peripheral to destination peripheral (DMA control)</description>
 									<value>0x3</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_PERIPHERAL_TO</name>
+									<name>SOURCE_PERIPHERAL_TO_DEST_CONTROL</name>
 									<description>Source peripheral to destination peripheral (destination control)</description>
 									<value>0x4</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>MEMORY_TO_PERIPHERAL</name>
+									<name>MEMORY_TO_PERIPHERAL_PERIPHERAL_CONTROL</name>
 									<description>Memory to peripheral (peripheral control)</description>
 									<value>0x5</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>PERIPHERAL_TO_MEMORY</name>
+									<name>PERIPHERAL_TO_MEMORY_PERIPHERAL_CONTROL</name>
 									<description>Peripheral to memory (peripheral control)</description>
 									<value>0x6</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>SOURCE_PERIPHERAL_TO</name>
+									<name>SOURCE_PERIPHERAL_TO_SOURCE_CONTROL</name>
 									<description>Source peripheral to destination peripheral (source control)</description>
 									<value>0x7</value>
 								</enumeratedValue>
@@ -8777,7 +8777,7 @@
 									<value>0</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DISABLED</name>
+									<name>ENABLED</name>
 									<description>The periodic schedule status is enabled.</description>
 									<value>1</value>
 								</enumeratedValue>
@@ -8795,7 +8795,7 @@
 									<value>0</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>DISABLED</name>
+									<name>ENABLED</name>
 									<description>Asynchronous schedule status is enabled.</description>
 									<value>1</value>
 								</enumeratedValue>
@@ -17687,7 +17687,7 @@
 				<enumeratedValues>							
 				<name>ENUM</name>							
 					<enumeratedValue>						
-						<name>INPUT_TO_THE_EVENT_R</name>					
+						<name>INPUT_TO_THE_EVENT_ROUTER_NULL</name>					
 						<description>Input to the event router.</description>					
 						<value>0x0</value>					
 					</enumeratedValue>						
@@ -17702,7 +17702,7 @@
 						<value>0x2</value>					
 					</enumeratedValue>						
 					<enumeratedValue>						
-						<name>INPUT_TO_THE_EVENT_R</name>					
+						<name>INPUT_TO_THE_EVENT_ROUTER</name>					
 						<description>Input to the event router.</description>					
 						<value>0x3</value>					
 					</enumeratedValue>						
@@ -17715,12 +17715,12 @@
 				<enumeratedValues>							
 				<name>ENUM</name>							
 					<enumeratedValue>						
-						<name>INPUT_TO_EVENT_ROUTE</name>					
+						<name>INPUT_TO_EVENT_ROUTER_NULL</name>					
 						<description>Input to event router.</description>					
 						<value>0x0</value>					
 					</enumeratedValue>						
 					<enumeratedValue>						
-						<name>OUTPUT_FROM_THE_EVEN</name>					
+						<name>OUTPUT_FROM_THE_EVENT_ROUTER</name>					
 						<description>Output from the event router.</description>					
 						<value>0x1</value>					
 					</enumeratedValue>						
@@ -17730,7 +17730,7 @@
 						<value>0x2</value>					
 					</enumeratedValue>						
 					<enumeratedValue>						
-						<name>INPUT_TO_EVENT_ROUTE</name>					
+						<name>INPUT_TO_EVENT_ROUTER</name>					
 						<description>Input to event router.</description>					
 						<value>0x3</value>					
 					</enumeratedValue>						
@@ -37582,12 +37582,12 @@
 				<enumeratedValues>											
 				<name>ENUM</name>											
 					<enumeratedValue>										
-						<name>BREAK_INTERRUPT_STAT</name>									
+						<name>BREAK_INTERRUPT_STATUS_INACTIVE</name>									
 						<description>Break interrupt status is inactive.</description>									
 						<value>0</value>									
 					</enumeratedValue>										
 					<enumeratedValue>										
-						<name>BREAK_INTERRUPT_STAT</name>									
+						<name>BREAK_INTERRUPT_STATUS_ACTIVE</name>									
 						<description>Break interrupt status is active.</description>									
 						<value>1</value>									
 					</enumeratedValue>										
@@ -39691,7 +39691,7 @@
 					<dim>17</dim>
 					<dimIncrement>0x4</dimIncrement>
 					<dimIndex>0-16</dimIndex>
-					<name>SFSP1_%s</name>
+					<name>SFSP1_%s_FIX1</name>
 					<description>Pin configuration register for pins P1</description>
 					<addressOffset>0x080</addressOffset>
 					<access>read-write</access>
@@ -40020,7 +40020,7 @@
 					<dim>3</dim>
 					<dimIncrement>0x4</dimIncrement>
 					<dimIndex>18-20</dimIndex>
-					<name>SFSP1_%s</name>
+					<name>SFSP1_%s_FIX2</name>
 					<description>Pin configuration register for pins P1</description>
 					<addressOffset>0x0C8</addressOffset>
 					<access>read-write</access>
@@ -40177,7 +40177,7 @@
 					<dim>3</dim>
 					<dimIncrement>0x4</dimIncrement>
 					<dimIndex>0-2</dimIndex>
-					<name>SFSP2_%s</name>
+					<name>SFSP2_%s_FIX1</name>
 					<description>Pin configuration register for pins P2</description>
 					<addressOffset>0x100</addressOffset>
 					<access>read-write</access>
@@ -40334,7 +40334,7 @@
 					<dim>3</dim>
 					<dimIncrement>0x4</dimIncrement>
 					<dimIndex>3-5</dimIndex>
-					<name>SFSP2_%s</name>
+					<name>SFSP2_%s_FIX2</name>
 					<description>Pin configuration register for pins P2</description>
 					<addressOffset>0x10C</addressOffset>
 					<access>read-write</access>
@@ -40507,7 +40507,7 @@
 					<dim>7</dim>
 					<dimIncrement>0x4</dimIncrement>
 					<dimIndex>6-12</dimIndex>
-					<name>SFSP2_%s</name>
+					<name>SFSP2_%s_FIX3</name>
 					<description>Pin configuration register for pins P2</description>
 					<addressOffset>0x118</addressOffset>
 					<access>read-write</access>
@@ -40664,7 +40664,7 @@
 					<dim>3</dim>
 					<dimIncrement>0x4</dimIncrement>
 					<dimIndex>0-2</dimIndex>
-					<name>SFSP3_%s</name>
+					<name>SFSP3_%s_FIX1</name>
 					<description>Pin configuration register for pins P3</description>
 					<addressOffset>0x180</addressOffset>
 					<access>read-write</access>
@@ -40978,7 +40978,7 @@
 					<dim>5</dim>
 					<dimIncrement>0x4</dimIncrement>
 					<dimIndex>4-8</dimIndex>
-					<name>SFSP3_%s</name>
+					<name>SFSP3_%s_FIX2</name>
 					<description>Pin configuration register for pins P3</description>
 					<addressOffset>0x190</addressOffset>
 					<access>read-write</access>
@@ -41764,7 +41764,7 @@
 					<dim>3</dim>
 					<dimIncrement>0x4</dimIncrement>
 					<dimIndex>0-2</dimIndex>
-					<name>SFSP8_%s</name>
+					<name>SFSP8_%s_FIX1</name>
 					<description>Pin configuration register for pins P8</description>
 					<addressOffset>0x400</addressOffset>
 					<access>read-write</access>
@@ -41921,7 +41921,7 @@
 					<dim>6</dim>
 					<dimIncrement>0x4</dimIncrement>
 					<dimIndex>3-8</dimIndex>
-					<name>SFSP8_%s</name>
+					<name>SFSP8_%s_FIX2</name>
 					<description>Pin configuration register for pins P8</description>
 					<addressOffset>0x40C</addressOffset>
 					<access>read-write</access>
@@ -50403,12 +50403,12 @@
 							<enumeratedValues>
 								<name>ENUM</name>
 								<enumeratedValue>
-									<name>THE_MESSAGE_DIRECTIO</name>
+									<name>THE_MESSAGE_DIRECTIO_IS_USED</name>
 									<description>The message direction bit (DIR) is used for acceptance filtering.</description>
 									<value>1</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>THE_MESSAGE_DIRECTIO</name>
+									<name>THE_MESSAGE_DIRECTIO_IS_UNUSED</name>
 									<description>The message direction bit (DIR) has no effect on acceptance filtering.</description>
 									<value>0</value>
 								</enumeratedValue>
@@ -50421,12 +50421,12 @@
 							<enumeratedValues>
 								<name>ENUM</name>
 								<enumeratedValue>
-									<name>THE_EXTENDED_IDENTIF</name>
+									<name>THE_EXTENDED_IDENTIFIER_IS_USED</name>
 									<description>The extended identifier bit (IDE) is used for acceptance filtering.</description>
 									<value>1</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>THE_EXTENDED_IDENTIF</name>
+									<name>THE_EXTENDED_IDENTIFIER_IS_UNUSED</name>
 									<description>The extended identifier bit (IDE) has no effect on acceptance filtering.</description>
 									<value>0</value>
 								</enumeratedValue>
@@ -50523,12 +50523,12 @@
 							<enumeratedValues>
 								<name>ENUM</name>
 								<enumeratedValue>
-									<name>THE_MESSAGE_OBJECT_I</name>
+									<name>THE_MESSAGE_OBJECT_IS_CONFIGURED</name>
 									<description>The message object is configured and should be considered by the message handler.</description>
 									<value>1</value>
 								</enumeratedValue>
 								<enumeratedValue>
-									<name>THE_MESSAGE_OBJECT_I</name>
+									<name>THE_MESSAGE_OBJECT_IS_IGNORED</name>
 									<description>The message object is ignored by the message handler.</description>
 									<value>0</value>
 								</enumeratedValue>
